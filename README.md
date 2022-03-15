@@ -179,8 +179,10 @@ type Book {
 }
 ```
 ## Api
-`BookResource` 与 `book.graphqls` 对应关系, 自行理解, 表示不难. 这套表示方式,
-是由 `Spring` 定义的, 个人觉得表现形式不是很好
+`BookResource` 与 `book.graphqls` 对应关系, 自行理解
+
+表示不难. 这套表示方式, 是由 `Spring` 定义的, 个人觉得表现形式不是很好
+
 由于 `Java` 是强类型, 导致对这种动态松散型表达力欠缺, 像 JS 或 Kotlin 会好很多
 ```java
 import com.github.zhengchalei.domain.Author;
@@ -288,8 +290,9 @@ public class InitData {
 
 ## 测试
 打开页面 [http://localhost:8080/graphiql?path=/graphql&wsPath=/graphql](http://localhost:8080/graphiql?path=/graphql&wsPath=/graphql)
+
 可自行 删除或者新增条件 字段测试
-查询过程中 打开 Application Log 注意观察日志
+查询过程中 打开 Application log 注意观察日志
 看程序如何执行的
 ```graphql
 {
