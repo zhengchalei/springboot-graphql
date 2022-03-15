@@ -380,6 +380,6 @@ public class InitData {
 }
 ```
 ## 参考文章
-[reactive-apis-with-spring-webflux](https://developer.okta.com/blog/2018/09/24/reactive-apis-with-spring-webflux)
-[spring-webflux-websockets-react](https://developer.okta.com/blog/2018/09/25/spring-webflux-websockets-react)
-[Spring Tips: @Controllers: GraphQL](https://www.youtube.com/watch?v=eVqmB2hsIVk)
+1. [reactive-apis-with-spring-webflux](https://developer.okta.com/blog/2018/09/24/reactive-apis-with-spring-webflux)
+2. [spring-webflux-websockets-react](https://developer.okta.com/blog/2018/09/25/spring-webflux-websockets-react)
+3. [Spring Tips: @Controllers: GraphQL](https://www.youtube.com/watch?v=eVqmB2hsIVk)
